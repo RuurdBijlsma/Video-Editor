@@ -16,5 +16,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="net.bramp.ffmpeg:ffmpeg:0.6.1" level="project" />
+    <orderEntry type="library" name="javax.media:jmf:2.1.1e" level="project" />
   </component>
 </module>
