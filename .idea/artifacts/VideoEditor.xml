@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="VideoEditor">
+    <output-path>$PROJECT_DIR$/out/artifacts/VideoEditor</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="VideoEditor.Main" />
+        <option name="description" value="" />
+        <option name="height" value="900" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="VideoEditor" />
+        <option name="vendor" value="ruurdisiindebuurd" />
+        <option name="version" value="0.1" />
+        <option name="width" value="1600" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="VideoEditor.jar">
+        <element id="module-output" name="VideoEditor" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/lib/jfoenix.jar" />
+    </root>
+  </artifact>
+</component>

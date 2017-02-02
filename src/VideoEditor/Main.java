@@ -20,7 +20,7 @@ public class Main extends Application {
         primaryStage.setScene(new Scene(root, 1600, 900));
         Controller controller = loader.getController();
         controller.setStage(primaryStage);
-        primaryStage.getIcons().add(new Image("file:resource/logo.png"));
+        primaryStage.getIcons().add(new Image("file:src/VideoEditor/resource/logo.png"));
         primaryStage.show();
     }
 
