@@ -13,21 +13,23 @@ import java.util.List;
 import java.util.Optional;
 
 public class Controller {
+    public GridPane videoGrid;
+    public GridPane audioGrid;
     private Stage stage;
 
     void setStage(Stage stage) {
         this.stage = stage;
-        importToGrid("Doei - Naffme", "videoGrid", Color.DARKGREEN, 0);
-        importToGrid("Doei - Naffme", "videoGrid", Color.DARKGREEN, 1);
-        importToGrid("Doei - Naffme", "videoGrid", Color.DARKGREEN, 2);
-        importToGrid("Doei - Naffme", "videoGrid", Color.DARKGREEN, 3);
-        importToGrid("Doei - Naffme", "videoGrid", Color.DARKGREEN, 4);
-        importToGrid("Doei - Naffme", "videoGrid", Color.DARKGREEN, 5);
-        importToGrid("Doei - Naffme", "videoGrid", Color.DARKGREEN, 6);
-        importToGrid("Doei - Naffme", "videoGrid", Color.DARKGREEN, 7);
-        importToGrid("Doei - Naffme", "videoGrid", Color.DARKGREEN, 8);
-        importToGrid("Doei - Naffme", "videoGrid", Color.DARKGREEN, 9);
-        importToGrid("Doei - Naffme", "videoGrid", Color.DARKGREEN, 10);
+//        importToGrid("Doei - Naffme", videoGrid, Color.DARKGREEN, 0);
+//        importToGrid("Doei - Naffme", videoGrid, Color.DARKGREEN, 1);
+//        importToGrid("Doei - Naffme", videoGrid, Color.DARKGREEN, 2);
+//        importToGrid("Doei - Naffme", videoGrid, Color.DARKGREEN, 3);
+//        importToGrid("Doei - Naffme", videoGrid, Color.DARKGREEN, 4);
+//        importToGrid("Doei - Naffme", videoGrid, Color.DARKGREEN, 5);
+//        importToGrid("Doei - Naffme", videoGrid, Color.DARKGREEN, 6);
+//        importToGrid("Doei - Naffme", videoGrid, Color.DARKGREEN, 7);
+//        importToGrid("Doei - Naffme", videoGrid, Color.DARKGREEN, 8);
+//        importToGrid("Doei - Naffme", videoGrid, Color.DARKGREEN, 9);
+//        importToGrid("Doei - Naffme", videoGrid, Color.DARKGREEN, 10);
     }
 
     public void importButtonClicked() {
@@ -48,8 +50,7 @@ public class Controller {
         List<File> selectedFiles = fileChooser.showOpenMultipleDialog(stage);
     }
 
-    private void importToGrid(String name, String id, Color color, int index) {
-        GridPane grid = (GridPane) stage.getScene().lookup("#" + id);
+    private void importToGrid(String name, GridPane grid, Color color, int index) {
         int rows = grid.getColumnConstraints().size();
         int columns = grid.getRowConstraints().size();
         int x = index % rows;
