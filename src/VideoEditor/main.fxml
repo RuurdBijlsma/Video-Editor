@@ -55,7 +55,7 @@
             </HBox.margin>
         </JFXButton>
     </HBox>
-    <JFXTabPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #1f1f1f;" tabClosingPolicy="UNAVAILABLE" GridPane.rowIndex="2">
+    <JFXTabPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #1f1f1f;" tabClosingPolicy="UNAVAILABLE" tabMaxHeight="35.0" tabMinHeight="35.0" tabMinWidth="130.0" GridPane.rowIndex="2">
         <Tab style="-fx-background-color: null;" text="Video">
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                 <TilePane fx:id="videoPane" hgap="20.0" prefTileHeight="90.0" prefTileWidth="123.0" vgap="20.0" AnchorPane.bottomAnchor="30" AnchorPane.leftAnchor="75" AnchorPane.rightAnchor="30" AnchorPane.topAnchor="30" />
